@@ -25,3 +25,6 @@ The second part to this step is to provide the BOT "Full Access" to the video de
 ### Obtain the Device ID
 Each cloud registered video device has a unique Device ID. To obtain the video codecs DeviceID, from Control Hub, follow thes steps and copy the **Webex DeveloperId**.
 ![example](https://github.com/dhenwood/Macro-for-Outside-Nav/blob/main/Obtian%20DeviceId%20Example.png)
+
+### Install Macro
+Copy the [messageSpacesMacro](https://github.com/dhenwood/Macro-for-Outside-Nav/blob/main/messageSpacesMacro.js) and deploy either via Control Hub or locally on the device. Replace the **botToken**, **deviceId** and **spacesUrl** with the details obtained above.
