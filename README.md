@@ -19,7 +19,8 @@ In order for the outside navigator to send a message to the inside video codec, 
 ### Create and associate a BOT
 Details on creating a BOT can be [found here](https://developer.webex.com/messaging/docs/bots). The crucial part of this step is to **save the BOT token** once created. This will be used further on by the macro for authentication.
 
-The second part to this step is to provide the BOT "Full Access" to the video device. This is required to post a message on the video codecs screen. From Control Hub, follow the steps to assigning the BOT to the device. 
+The second part to this step is to provide the BOT "Full Access" to the video device. This is required to post a message on the video codecs screen. From Control Hub, follow the steps to assigning the BOT to the device ensuring the for step 5, the name of the BOT is the same as the previous step. For step 6, ensure the BOT has **Full Access**. 
+![example](https://github.com/dhenwood/Macro-for-Outside-Nav/blob/main/Associate%20BOT%20Example.png)
 
 ### Obtian the Device ID
 Each cloud registered video device has a unique Device ID. 
