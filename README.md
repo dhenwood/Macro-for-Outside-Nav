@@ -1,4 +1,7 @@
 # Macro-for-Outside-Nav
+* [Introduction](https://github.com/dhenwood/Dynamic-Wallpaper#introduction)
+
+##Introduction
 A new feature in Cisco video devices (currently in beta) allows for an outside Navigator to incorporate UI Extensions and Macros. Beta details [can be found here](https://gobeta.webex.com/project/feature/item.html?cap=115ca7c0-65ba-4f05-966c-81d02e884c9f&artid=7dae6035-ef0a-4d48-aaf1-c8e618325810).
 
 The following is an example of
