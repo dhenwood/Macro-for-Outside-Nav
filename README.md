@@ -6,4 +6,5 @@ The following is an example of
 2. View Cisco Spaces from outside the room to locate an available room. See second example below.
 
 ![example](https://github.com/dhenwood/Macro-for-Outside-Nav/blob/main/Send%20Message%20Example.png)
+![example](https://github.com/dhenwood/Macro-for-Outside-Nav/blob/main/View%20Spaces%20Example.png)
 
