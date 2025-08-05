@@ -37,19 +37,15 @@ function init() {
 function setupListerners() {
   xapi.event.on('UserInterface Extensions Widget Action', (event) => {
     if (event.WidgetId == 'button1' && event.Type == 'pressed') {
-      console.log("button1")
       const message = "Can you pop out?"
       sendMessage(message);
     } else if (event.WidgetId == 'button2' && event.Type == 'pressed') {
-      console.log("button2")
       const message = "I have this room booked"
       sendMessage(message);
     } else if (event.WidgetId == 'button3' && event.Type == 'pressed') {
-      console.log("button3")
       const message = "Will you be long?"
       sendMessage(message);
     } else if (event.WidgetId == 'button4' && event.Type == 'pressed') {
-      console.log("button4")
       const message = "Free coffee out here!"
       sendMessage(message);
     }
