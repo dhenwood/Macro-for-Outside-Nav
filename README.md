@@ -1,4 +1,4 @@
-# Macro-for-Outside-Nav
+# Macro for Outside Navigator
 * [Introduction](https://github.com/dhenwood/Macro-for-Outside-Nav#introduction)
 * [Setup](https://github.com/dhenwood/Macro-for-Outside-Nav#setup)
 
@@ -17,6 +17,9 @@ The following is an example of
 In order for the outside navigator to send a message to the inside video codec, a message is sent via the Cisco Cloud API's. Whislst there are a number of ways to achieve this, the easiest is creating a BOT.
 
 ### Create and associate a BOT
-Details on creating a BOT can be [found here](https://developer.webex.com/messaging/docs/bots). The crucial part of this step is to save the BOT token once created. This will be used further on by the macro for authentication.
+Details on creating a BOT can be [found here](https://developer.webex.com/messaging/docs/bots). The crucial part of this step is to **save the BOT token** once created. This will be used further on by the macro for authentication.
+
+The second part to this step is to provide the BOT "Full Access" to the video device. This is required to post a message on the video codecs screen. From Control Hub, follow the steps to assigning the BOT to the device. 
 
 ### Obtian the Device ID
+Each cloud registered video device has a unique Device ID. 
