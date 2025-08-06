@@ -7,6 +7,7 @@ const spacesUrl = "setCiscoSpacesUrl"
 function sendMessage(message) {
   const url = "https://webexapis.com/v1/xapi/command/UserInterface.Message.Alert.Display"
   const authorizationHeader = "Authorization: Bearer " + botToken;
+  const contentType = "Content-Type: application/json";
   const body = {
     "deviceId": deviceId,
     "arguments": {
@@ -18,7 +19,7 @@ function sendMessage(message) {
   };
 
   xapi.command('HttpClient Post', {
-    'Header': authorizationHeader,
+    'Header': [authorizationHeader, contentType],
     'Url': url,
     'AllowInsecureHTTPS': 'False'
   }, JSON.stringify(body)).then(
