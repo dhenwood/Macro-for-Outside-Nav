@@ -13,7 +13,9 @@ The following is an example of
 ![example](https://github.com/dhenwood/Macro-for-Outside-Nav/blob/main/Send%20Message%20Example.png)
 ![example](https://github.com/dhenwood/Macro-for-Outside-Nav/blob/main/View%20Spaces%20Example.png)
 
-**NOTE:** This works on both Cisco RoomOS devices and Cisco Microsoft Teams Room assuming the outside navigator is running RoomOS.
+**⚠️ NOTE 1** This requires the outside Navigator to be in standalone mode (ie, not paired).
+
+**⚠️ NOTE 2** This works on both Cisco RoomOS devices and Cisco Microsoft Teams Room assuming the outside navigator is running RoomOS.
 
 ## Setup
 In order for the outside Navigator to send a message to the inside video codec, a message is sent via the Cisco Cloud API's. Whilst there are a number of ways to achieve this, the easiest is creating a BOT.
