@@ -25,7 +25,7 @@ function sendMessage(message) {
   }, JSON.stringify(body)).then(
     (result) => {
       console.log("result: " + result)
-      xapi.Command.Audio.Sound.Play({Sound: "Alert" });
+      //xapi.Command.Audio.Sound.Play({Sound: "Alert" });
     })
 }
 
